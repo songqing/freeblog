@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+
+<head>
+
+
+  <title>css.gofreeserve.com ---lazy days ( tags )</title>
+
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="<{$res}>/css/html.css" media="screen, projection, tv " />
+  <link rel="stylesheet" type="text/css" href="<{$res}>/css/layout.css" media="screen, projection, tv" />
+  <link rel="stylesheet" type="text/css" href="<{$res}>/css/print.css" media="print" />
+  <script src='<{$public}>/js/ajax3.0.js'></script>
+
+</head>
+
+
+<body>
+
+<!-- CONTENT: Holds all site content except for the footer.  This is what causes the footer to stick to the bottom -->
+<div id="content">
+
+
+
+  <!-- HEADER: Holds title, subtitle and header images -->
+  <div id="header">
+
+    <div id="title">
+      <h1>FreeBlog</h1>
+     
+    </div>
+
+    <img src="<{$res}>/images/bg/balloons.gif" alt="balloons" class="balloons" />
+    <img src="<{$res}>/images/bg/header_left.jpg" alt="left slice" class="left" />
+    <img src="<{$res}>/images/bg/header_right.jpg" alt="right slice" class="right" />
+
+  </div>
+
+
+
+  <!-- MAIN MENU: Top horizontal menu of the site.  Use class="here" to turn the current page tab on -->
+  <div id="mainMenu">
+    <ul class="floatRight">
+	<li><a href="<{$app}>/index/index" class="here">首页</a><li>
+      <{$menu}>
+    </ul>
+  </div>
+
+  <!-- PAGE CONTENT BEGINS: This is where you would define the columns (number, width and alignment) -->
+  <div id="page">
+
+    <div class="width100 floatLeft">
+
+      <div class="gradient">
+			 <{section name="cl" loop=$alist}>
+		<h1><a href="#"><{$alist[cl].article_title }></a></h1>  
+		  <p> 作者 <a href="#"><{$alist[cl].article_author}></a>&nbsp; 发表于<{$alist[cl].article_time}> </p>
+			 <{$alist[cl].article_content }>
+			 <a href='#C1'>评论该文章</a>
+			 <div>
+				<{section name='lo' loop=$reviewAll}>
+					&nbsp;&nbsp;<{$reviewAll[lo].review_name}> 在 <{$reviewAll[lo].review_time}> 评论《<{$alist[cl].article_title }>》说：<br />
+					&nbsp;&nbsp;<{$reviewAll[lo].review_content}><br />
+					<{section name='l' loop=$reviewAll[lo].replay}>
+						<div class="column_two_section_cont" style='width:575px;color:yellow'>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<{$reviewAll[lo].replay[l].rrname}> 在 <{$reviewAll[lo].replay[l].rtime}> 回复 <{$reviewAll[lo].review_name}> 说：<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<{$reviewAll[lo].replay[l].rr_content}>
+						</div>
+					<{/section}>
+				<{sectionelse}>
+					&nbsp;&nbsp;<{$alist[cl].article_title }>还没有文章回复！
+				<{/section}>
+			 </div>
+			 <h5> <a href="#"><span class="comment">评论数：<{$alist[cl].review_num}></span></a></h5>
+		<{/section}>
+		<div id='review'></div>
+		<a name='C1'>
+		<div style="border:1px dashed white"></div>
+        <form id="dummy" action="" method="post">
+
+		 <p>
+            <label>昵称：</label>
+            <input type="text" id='name' class="width50"/>
+          </p>
+
+          <p>
+            <label>电子邮件</label>
+            <input type="text" id='email' class="width50"/>
+          </p>
+          <p>
+            <label>个人主页</label>
+            <input type="text" id='website' class="width50"/>
+          </p>
+          <p>
+            <label>评论内容</label>
+            <textarea id='replayContent' onclick='heres()' rows="5" cols="20" class="width50"></textarea>
+          </p>
+
+          <p>
+			<input type='hidden' id='aid' value='<{$alist[cl].aid}>' />
+			<a href='javascript:void(0)' style='background:#cdcfc9;color:#060606' onclick='subContent()'>发表评论</a>
+          </p>
+
+        </form>
+		<script>
+		  var contents=document.getElementById('replayContent');
+		  var j=0;
+		  function heres(){
+				contents.innerText='';
+		  }
+			function subContent(){
+				var name=document.getElementById('name');
+				var email=document.getElementById('email');
+				var website=document.getElementById('website');
+				var aid=document.getElementById('aid');
+				var showAll=document.getElementById('review');
+				showAll.innerHTML+="<hr />状态:待审核<br />"+name.value+" 在 刚刚 回复文章说: <br />"+contents.value;
+				Ajax().post("<{$url}>/sendData","review_name="+name.value+"&review_email="+email.value+"&review_website="+website.value+"&review_content="+contents.value+"&aid="+aid.value,function(data){
+					alert(data);
+				})
+			}
+	  </script>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- FOOTER: Site footer for links, copyright, etc. -->
+</body>
+</html>

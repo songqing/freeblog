@@ -1,3 +1,4 @@
+use freeblog;
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 CREATE TABLE `free_album` (
   `id` smallint(5) NOT NULL auto_increment,

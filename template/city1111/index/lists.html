@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+
+<head>
+
+
+  <title>FreeBlog</title>
+
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="<{$res}>/css/html.css" media="screen, projection, tv " />
+  <link rel="stylesheet" type="text/css" href="<{$res}>/css/layout.css" media="screen, projection, tv" />
+  <link rel="stylesheet" type="text/css" href="<{$res}>/css/print.css" media="print" />
+
+</head>
+
+
+<body>
+
+<!-- CONTENT: Holds all site content except for the footer.  This is what causes the footer to stick to the bottom -->
+<div id="content">
+
+
+
+  <!-- HEADER: Holds title, subtitle and header images -->
+  <div id="header">
+
+    <div id="title">
+      <h1>FreeBlog</h1>
+      
+    </div>
+
+    <img src="<{$res}>/images/bg/balloons.gif" alt="balloons" class="balloons" />
+    <img src="<{$res}>/images/bg/header_left.jpg" alt="left slice" class="left" />
+    <img src="<{$res}>/images/bg/header_right.jpg" alt="right slice" class="right" />
+
+  </div>
+
+
+
+  <!-- MAIN MENU: Top horizontal menu of the site.  Use class="here" to turn the current page tab on -->
+  <div id="mainMenu">
+    <ul class="floatRight">
+	<li><a href="<{$app}>/index/index" class="here">首页</a><li>
+      <{$menu}>
+    </ul>
+  </div>
+	
+
+
+
+  <!-- PAGE CONTENT BEGINS: This is where you would define the columns (number, width and alignment) -->
+  <div id="page" >
+    <!-- 25 percent width column, aligned to the left -->
+    <div class="width25 floatLeft leftColumn">
+
+      <h1>Intro</h1>
+		
+      <ul class="sideMenu">
+        <li class="here">
+          <ul>
+            <{$left_0}>
+          </ul>
+        </li>
+      </ul>
+
+	  <ul class="sideMenu">
+        <li class="here">
+          <ul>
+            <{$left_1}>
+          </ul>
+        </li>
+      </ul>
+
+	  <ul class="sideMenu">
+        <li class="here">
+          <ul>
+            <{$left_2}>
+          </ul>
+        </li>
+      </ul>
+
+	  <ul class="sideMenu">
+        <li class="here">
+          <ul>
+            <{$left_3}>
+          </ul>
+        </li>
+      </ul>
+
+	  <ul class="sideMenu">
+        <li class="here">
+          <ul>
+            <{$left_4}>
+          </ul>
+        </li>
+      </ul>
+
+	  <ul class="sideMenu">
+        <li class="here">
+          <ul>
+            <{$left_5}>
+          </ul>
+        </li>
+      </ul>
+
+	  <ul class="sideMenu">
+        <li class="here">
+          <ul>
+            <{$left_6}>
+          </ul>
+        </li>
+      </ul>
+
+      
+    </div>
+
+
+
+    <!-- 75 percent width column, aligned to the right -->
+    <div class="width75 floatRight">
+
+      <!-- Gives the gradient block -->
+      <div class="gradient">
+
+        <a name="coding"></a>
+
+		<{section name="arl" loop=$alist}>
+       <blockquote>
+          <div style="margin-left:20px;">
+		  <p>
+            <h4><a href="<{$url}>/content/aid/<{$alist[arl].aid}>"><{$alist[arl].article_title}></a></h4>
+			<br/>&nbsp;&nbsp;&nbsp;作者：<{$alist[arl].article_author}>&nbsp;&nbsp;|&nbsp;&nbsp;评论数：<a href="#"><{$alist[arl].review_num}></a>
+          </p>
+		 </div>
+        </blockquote>
+		<{/section}>
+		<div><{$fpage}></div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- FOOTER: Site footer for links, copyright, etc. -->
+
+
+</body>
+
+</html>
