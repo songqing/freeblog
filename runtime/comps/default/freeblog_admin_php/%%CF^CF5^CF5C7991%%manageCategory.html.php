@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2012-02-02 17:19:49
+<?php /* Smarty version 2.6.18, created on 2014-12-01 12:17:18
          compiled from categoryManage/manageCategory.html */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'split_catTag', 'categoryManage/manageCategory.html', 37, false),)), $this); ?>

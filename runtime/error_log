@@ -1,79 +1,191 @@
-[17-Feb-2012 15:32:04] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20120211131855_537.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 41
-[17-Feb-2012 15:32:04] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 42
-[17-Feb-2012 15:32:11] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20120211131855_537.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 41
-[17-Feb-2012 15:32:11] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 42
-[17-Feb-2012 15:32:22] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20120211131855_537.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 41
-[17-Feb-2012 15:32:22] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 42
-[17-Feb-2012 15:32:32] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20120211131855_537.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 41
-[17-Feb-2012 15:32:32] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 42
-[17-Feb-2012 15:32:37] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20120211131855_537.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 41
-[17-Feb-2012 15:32:37] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 42
-[17-Feb-2012 15:32:38] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20120211131855_537.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 41
-[17-Feb-2012 15:32:38] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 42
-[17-Feb-2012 16:22:11] PHP Fatal error:  Call to a member function prepare() on a non-object in E:\web\www\freeblog\brophp\bases\dpdo.class.php on line 74
-[17-Feb-2012 16:25:41] PHP Warning:  array_count_values() [<a href='function.array-count-values'>function.array-count-values</a>]: The argument should be an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\reviewmanageaction.class.php on line 84
-[17-Feb-2012 16:25:55] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20120211131855_537.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 41
-[17-Feb-2012 16:25:55] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 42
-[17-Feb-2012 16:31:40] PHP Warning:  rmdir(E:/web/www/freeBlog/home/views/city1111/index) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\templatemanageaction.class.php on line 186
-[17-Feb-2012 16:31:40] PHP Warning:  rmdir(E:/web/www/freeBlog/home/views/city1111/public) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\templatemanageaction.class.php on line 186
-[17-Feb-2012 16:31:40] PHP Warning:  rmdir(E:/web/www/freeBlog/home/views/city1111/resource/css) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\templatemanageaction.class.php on line 186
-[17-Feb-2012 16:31:40] PHP Warning:  rmdir(E:/web/www/freeBlog/home/views/city1111/resource/images/bg) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\templatemanageaction.class.php on line 186
-[17-Feb-2012 16:31:41] PHP Warning:  rmdir(E:/web/www/freeBlog/home/views/city1111/resource/images/icons) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\templatemanageaction.class.php on line 186
-[17-Feb-2012 16:31:41] PHP Warning:  rmdir(E:/web/www/freeBlog/home/views/city1111/resource/images) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\templatemanageaction.class.php on line 186
-[17-Feb-2012 16:31:41] PHP Warning:  rmdir(E:/web/www/freeBlog/home/views/city1111/resource/js) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\templatemanageaction.class.php on line 186
-[17-Feb-2012 16:31:41] PHP Warning:  rmdir(E:/web/www/freeBlog/home/views/city1111/resource) [<a href='function.rmdir'>function.rmdir</a>]: No such file or directory in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\templatemanageaction.class.php on line 186
-[17-Feb-2012 16:32:13] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:13] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:16] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:16] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:17] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:17] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:17] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:17] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:17] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:17] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:17] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:17] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:18] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:18] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:18] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:18] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:18] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[17-Feb-2012 16:32:18] PHP Warning:  Smarty error: unable to read resource: "index/index.html" in E:\web\www\freeblog\brophp\libs\Smarty.class.php on line 1095
-[27-Feb-2012 09:00:52] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20120211131855_537.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 41
-[27-Feb-2012 09:00:52] PHP Warning:  array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\imageaction.class.php on line 42
-[27-Feb-2012 09:06:34] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\articlemanageaction.class.php on line 30
-[27-Feb-2012 09:21:58] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\articlemanageaction.class.php on line 30
-[27-Feb-2012 09:30:45] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\articlemanageaction.class.php on line 30
-[27-Feb-2012 09:30:59] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\articlemanageaction.class.php on line 30
-[27-Feb-2012 09:31:38] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\controls\freeblog_admin_php\articlemanageaction.class.php on line 30
-[01-Mar-2012 15:23:53] PHP Fatal error:  Call to a member function prepare() on a non-object in E:\web\www\freeblog\brophp\bases\dpdo.class.php on line 74
-[01-Mar-2012 23:23:04] PHP Warning:  array_count_values() [<a href='function.array-count-values'>function.array-count-values</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 29
-[01-Mar-2012 23:23:04] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 30
-[01-Mar-2012 23:23:04] PHP Warning:  Invalid argument supplied for foreach() in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 33
-[02-Mar-2012 08:22:50] PHP Warning:  array_count_values() [<a href='function.array-count-values'>function.array-count-values</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 29
-[02-Mar-2012 08:22:50] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 30
-[02-Mar-2012 08:22:50] PHP Warning:  Invalid argument supplied for foreach() in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 33
-[02-Mar-2012 08:24:50] PHP Warning:  array_count_values() [<a href='function.array-count-values'>function.array-count-values</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 29
-[02-Mar-2012 08:24:50] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 30
-[02-Mar-2012 08:24:50] PHP Warning:  Invalid argument supplied for foreach() in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 33
-[02-Mar-2012 08:25:40] PHP Warning:  array_count_values() [<a href='function.array-count-values'>function.array-count-values</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 29
-[02-Mar-2012 08:25:40] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 30
-[02-Mar-2012 08:25:40] PHP Warning:  Invalid argument supplied for foreach() in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 33
-[02-Mar-2012 08:26:04] PHP Warning:  array_count_values() [<a href='function.array-count-values'>function.array-count-values</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 29
-[02-Mar-2012 08:26:04] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 30
-[02-Mar-2012 08:26:04] PHP Warning:  Invalid argument supplied for foreach() in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 33
-[02-Mar-2012 08:27:01] PHP Warning:  array_count_values() [<a href='function.array-count-values'>function.array-count-values</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 29
-[02-Mar-2012 08:27:01] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 30
-[02-Mar-2012 08:27:01] PHP Warning:  Invalid argument supplied for foreach() in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 33
-[02-Mar-2012 08:49:33] PHP Warning:  array_count_values() [<a href='function.array-count-values'>function.array-count-values</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 29
-[02-Mar-2012 08:49:33] PHP Warning:  array_unique() [<a href='function.array-unique'>function.array-unique</a>]: The argument should be an array in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 30
-[02-Mar-2012 08:49:33] PHP Warning:  Invalid argument supplied for foreach() in E:\web\www\freeblog\runtime\models\freeblog_index_php\varsmodel.class.php on line 33
+[01-Dec-2014 03:55:33 UTC] PHP Warning:  include(Debug.class.php): failed to open stream: No such file or directory in /home/aclass/workspace/PHP/Blog/freeblog/brophp/brophp.php on line 70
+[01-Dec-2014 03:55:33 UTC] PHP Warning:  include(): Failed opening 'Debug.class.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:./brophp/bases/:./brophp/classes/:./brophp/libs/:./classes/:./runtime/controls/freeblog_admin_php/') in /home/aclass/workspace/PHP/Blog/freeblog/brophp/brophp.php on line 70
+[01-Dec-2014 03:55:33 UTC] PHP Fatal error:  Class 'Debug' not found in /home/aclass/workspace/PHP/Blog/freeblog/brophp/brophp.php on line 73
+[01-Dec-2014 03:55:41 UTC] PHP Warning:  include(Debug.class.php): failed to open stream: No such file or directory in /home/aclass/workspace/PHP/Blog/freeblog/brophp/brophp.php on line 70
+[01-Dec-2014 03:55:41 UTC] PHP Warning:  include(): Failed opening 'Debug.class.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear:./brophp/bases/:./brophp/classes/:./brophp/libs/:./classes/:./runtime/controls/freeblog_index_php/') in /home/aclass/workspace/PHP/Blog/freeblog/brophp/brophp.php on line 70
+[01-Dec-2014 03:55:41 UTC] PHP Fatal error:  Class 'Debug' not found in /home/aclass/workspace/PHP/Blog/freeblog/brophp/brophp.php on line 73
+[01-Dec-2014 04:15:09 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:15:09 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:15:09 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:15:09 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:15:09 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:15:09 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 12
+[01-Dec-2014 04:15:12 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:15:12 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:15:12 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:15:12 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:15:12 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 12
+[01-Dec-2014 04:15:37 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/viewmodel.class.php on line 40
+[01-Dec-2014 04:15:44 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:15:44 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:15:44 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:15:44 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:15:44 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:15:44 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 12
+[01-Dec-2014 04:16:19 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:16:19 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:16:19 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:16:19 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:16:19 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 12
+[01-Dec-2014 04:16:38 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:18:14 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:18:14 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:18:14 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:18:14 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:18:14 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:18:14 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 10
+[01-Dec-2014 04:18:24 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:18:24 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:18:24 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:18:24 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:18:24 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 10
+[01-Dec-2014 04:18:26 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:18:26 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:18:26 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:18:26 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:18:26 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 10
+[01-Dec-2014 04:18:27 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:18:27 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:18:27 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:18:27 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:18:27 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 10
+[01-Dec-2014 04:18:28 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:18:28 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:18:28 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:18:28 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:18:28 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:18:28 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 10
+[01-Dec-2014 04:21:15 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:23:31 UTC] PHP Notice:  Undefined variable: _GLOBALS in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/articleotheraction.class.php on line 44
+[01-Dec-2014 04:23:35 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:23:37 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:23:37 UTC] PHP Notice:  Undefined index: page in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/reviewmanageaction.class.php on line 42
+[01-Dec-2014 04:23:53 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_admin_php/album_formmodel.class.php on line 61
+[01-Dec-2014 04:24:44 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_admin_php/album_formmodel.class.php on line 46
+[01-Dec-2014 04:24:47 UTC] PHP Notice:  Undefined index: id in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 16
+[01-Dec-2014 04:24:47 UTC] PHP Notice:  Undefined index: pid in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 16
+[01-Dec-2014 04:24:47 UTC] PHP Notice:  Undefined index: search_username in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 17
+[01-Dec-2014 04:24:47 UTC] PHP Notice:  Undefined index: name in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 17
+[01-Dec-2014 04:24:47 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:24:47 UTC] PHP Notice:  Undefined variable: to in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 37
+[01-Dec-2014 04:24:47 UTC] PHP Notice:  Undefined variable: pid in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 37
+[01-Dec-2014 04:24:47 UTC] PHP Notice:  Undefined variable: date2 in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 49
+[01-Dec-2014 04:25:27 UTC] PHP Notice:  Undefined index: id in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 16
+[01-Dec-2014 04:25:27 UTC] PHP Notice:  Undefined index: pid in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 16
+[01-Dec-2014 04:25:27 UTC] PHP Notice:  Undefined index: search_username in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 17
+[01-Dec-2014 04:25:27 UTC] PHP Notice:  Undefined index: name in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 17
+[01-Dec-2014 04:25:27 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:25:27 UTC] PHP Notice:  Undefined variable: to in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 37
+[01-Dec-2014 04:25:27 UTC] PHP Notice:  Undefined variable: pid in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 37
+[01-Dec-2014 04:25:27 UTC] PHP Notice:  Undefined variable: date2 in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 49
+[01-Dec-2014 04:25:57 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 76
+[01-Dec-2014 04:25:57 UTC] PHP Notice:  Undefined variable: name in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 77
+[01-Dec-2014 04:25:57 UTC] PHP Notice:  Undefined variable: title in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 78
+[01-Dec-2014 04:25:57 UTC] PHP Warning:  Missing argument 2 for Dpdo::query(), called in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 79 and defined in /home/aclass/workspace/PHP/Blog/freeblog/brophp/bases/dpdo.class.php on line 45
+[01-Dec-2014 04:25:57 UTC] PHP Notice:  Undefined variable: method in /home/aclass/workspace/PHP/Blog/freeblog/brophp/bases/dpdo.class.php on line 50
+[01-Dec-2014 04:25:57 UTC] PHP Warning:  Missing argument 2 for Dpdo::query(), called in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 79 and defined in /home/aclass/workspace/PHP/Blog/freeblog/brophp/bases/dpdo.class.php on line 45
+[01-Dec-2014 04:25:57 UTC] PHP Notice:  Undefined variable: method in /home/aclass/workspace/PHP/Blog/freeblog/brophp/bases/dpdo.class.php on line 50
+[01-Dec-2014 04:25:58 UTC] PHP Notice:  Undefined index: id in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 16
+[01-Dec-2014 04:25:58 UTC] PHP Notice:  Undefined index: pid in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 16
+[01-Dec-2014 04:25:58 UTC] PHP Notice:  Undefined index: search_username in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 17
+[01-Dec-2014 04:25:58 UTC] PHP Notice:  Undefined index: name in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 17
+[01-Dec-2014 04:25:58 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:25:58 UTC] PHP Notice:  Undefined variable: to in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 37
+[01-Dec-2014 04:25:58 UTC] PHP Notice:  Undefined variable: pid in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 37
+[01-Dec-2014 04:25:58 UTC] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20141201122557_708.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 41
+[01-Dec-2014 04:25:58 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 42
+[01-Dec-2014 04:25:58 UTC] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20141201122557_112.jpg): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 41
+[01-Dec-2014 04:25:58 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 42
+[01-Dec-2014 04:26:02 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_admin_php/album_formmodel.class.php on line 46
+[01-Dec-2014 04:26:04 UTC] PHP Notice:  Undefined index: id in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 16
+[01-Dec-2014 04:26:04 UTC] PHP Notice:  Undefined index: pid in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 16
+[01-Dec-2014 04:26:04 UTC] PHP Notice:  Undefined index: search_username in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 17
+[01-Dec-2014 04:26:04 UTC] PHP Notice:  Undefined index: name in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 17
+[01-Dec-2014 04:26:04 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:26:04 UTC] PHP Notice:  Undefined variable: to in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 37
+[01-Dec-2014 04:26:04 UTC] PHP Notice:  Undefined variable: pid in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 37
+[01-Dec-2014 04:26:04 UTC] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20141201122557_708.png): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 41
+[01-Dec-2014 04:26:04 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 42
+[01-Dec-2014 04:26:04 UTC] PHP Warning:  getimagesize(http://localhost/freeblog/public/uploads/20141201122557_112.jpg): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 41
+[01-Dec-2014 04:26:04 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/imageaction.class.php on line 42
+[01-Dec-2014 04:26:09 UTC] PHP Notice:  Undefined variable: inputButton in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/webmanageaction.class.php on line 17
+[01-Dec-2014 04:26:56 UTC] PHP Notice:  Undefined variable: inputButton in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/webmanageaction.class.php on line 17
+[01-Dec-2014 04:27:15 UTC] PHP Notice:  Undefined variable: inputButton in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/webmanageaction.class.php on line 17
+[01-Dec-2014 04:27:30 UTC] PHP Notice:  Undefined variable: inputButton in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/webmanageaction.class.php on line 17
+[01-Dec-2014 04:27:32 UTC] PHP Warning:  opendir(/home/aclass/workspace/PHP/Blog/freeBlog/dataBack): failed to open dir: No such file or directory in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/datamanageaction.class.php on line 40
+[01-Dec-2014 04:27:32 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/datamanageaction.class.php on line 41
+[01-Dec-2014 04:27:32 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/datamanageaction.class.php on line 42
+[01-Dec-2014 04:27:32 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/datamanageaction.class.php on line 44
+[01-Dec-2014 04:27:33 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:27:38 UTC] PHP Warning:  opendir(/home/aclass/workspace/PHP/Blog/freeBlog/home/views): failed to open dir: No such file or directory in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 14
+[01-Dec-2014 04:27:38 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 16
+[01-Dec-2014 04:27:38 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 17
+[01-Dec-2014 04:27:38 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 20
+[01-Dec-2014 04:27:38 UTC] PHP Warning:  closedir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 41
+[01-Dec-2014 04:27:38 UTC] PHP Notice:  Undefined variable: template in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 48
+[01-Dec-2014 04:28:01 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:28:01 UTC] PHP Notice:  Undefined variable: dis_num in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/flinkaction.class.php on line 18
+[01-Dec-2014 04:30:26 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:30:26 UTC] PHP Notice:  Undefined variable: dis_num in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/flinkaction.class.php on line 18
+[01-Dec-2014 04:30:33 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:30:33 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:30:33 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:30:33 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:30:33 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:30:33 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 10
+[01-Dec-2014 04:31:02 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:31:02 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:31:02 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:31:02 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:31:02 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 10
+[01-Dec-2014 04:31:05 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:31:05 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:31:05 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:31:05 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:31:05 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:31:05 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 10
+[01-Dec-2014 04:31:16 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:31:16 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:31:16 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:31:16 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:31:16 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 10
+[01-Dec-2014 04:31:30 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:31:30 UTC] PHP Notice:  Undefined variable: dis_num in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/flinkaction.class.php on line 18
+[01-Dec-2014 04:31:44 UTC] PHP Warning:  opendir(/home/aclass/workspace/PHP/Blog/freeBlog/home/views): failed to open dir: No such file or directory in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 14
+[01-Dec-2014 04:31:44 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 16
+[01-Dec-2014 04:31:44 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 17
+[01-Dec-2014 04:31:44 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 20
+[01-Dec-2014 04:31:44 UTC] PHP Warning:  closedir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 41
+[01-Dec-2014 04:31:44 UTC] PHP Notice:  Undefined variable: template in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 48
+[01-Dec-2014 04:32:07 UTC] PHP Notice:  Undefined variable: tems in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 104
+[01-Dec-2014 04:32:07 UTC] PHP Warning:  opendir(home/views/city): failed to open dir: No such file or directory in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 156
+[01-Dec-2014 04:32:07 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 157
+[01-Dec-2014 04:32:07 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 158
+[01-Dec-2014 04:32:07 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 159
+[01-Dec-2014 04:32:07 UTC] PHP Warning:  closedir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 174
+[01-Dec-2014 04:32:07 UTC] PHP Warning:  unlink(home/views/city): No such file or directory in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 113
+[01-Dec-2014 04:32:10 UTC] PHP Warning:  opendir(/home/aclass/workspace/PHP/Blog/freeBlog/home/views): failed to open dir: No such file or directory in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 14
+[01-Dec-2014 04:32:10 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 16
+[01-Dec-2014 04:32:10 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 17
+[01-Dec-2014 04:32:10 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 20
+[01-Dec-2014 04:32:10 UTC] PHP Warning:  closedir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 41
+[01-Dec-2014 04:32:10 UTC] PHP Notice:  Undefined variable: template in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 48
+[01-Dec-2014 04:32:15 UTC] PHP Warning:  opendir(/home/aclass/workspace/PHP/Blog/freeBlog/home/views): failed to open dir: No such file or directory in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 14
+[01-Dec-2014 04:32:15 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 16
+[01-Dec-2014 04:32:15 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 17
+[01-Dec-2014 04:32:15 UTC] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 20
+[01-Dec-2014 04:32:15 UTC] PHP Warning:  closedir() expects parameter 1 to be resource, boolean given in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 41
+[01-Dec-2014 04:32:15 UTC] PHP Notice:  Undefined variable: template in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/templatemanageaction.class.php on line 48
+[01-Dec-2014 04:32:26 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:32:33 UTC] PHP Notice:  Undefined variable: inputButton in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/webmanageaction.class.php on line 17
+[01-Dec-2014 04:32:41 UTC] PHP Notice:  Undefined variable: inputButton in /home/aclass/workspace/PHP/Blog/freeblog/runtime/controls/freeblog_admin_php/webmanageaction.class.php on line 17
+[01-Dec-2014 04:33:29 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:33:29 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:33:29 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 31
+[01-Dec-2014 04:33:29 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 17
+[01-Dec-2014 04:33:29 UTC] PHP Warning:  The magic method __get() must have public visibility and cannot be static in /home/aclass/workspace/PHP/Blog/freeblog/brophp/classes/page.class.php on line 86
+[01-Dec-2014 04:33:29 UTC] PHP Notice:  Undefined variable: str in /home/aclass/workspace/PHP/Blog/freeblog/runtime/models/freeblog_index_php/varsmodel.class.php on line 10

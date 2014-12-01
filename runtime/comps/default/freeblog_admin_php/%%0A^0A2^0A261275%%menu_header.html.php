@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2012-02-02 17:19:19
+<?php /* Smarty version 2.6.18, created on 2014-12-01 12:03:20
          compiled from public/menu_header.html */ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2012-02-02 17:19:35
+<?php /* Smarty version 2.6.18, created on 2014-12-01 12:23:45
          compiled from public/content_box.html */ ?>
 <div class="content-box column-left">	
 				<div class="content-box-header">

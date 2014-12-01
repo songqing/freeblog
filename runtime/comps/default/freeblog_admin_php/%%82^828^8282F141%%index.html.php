@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2012-02-02 17:17:47
+<?php /* Smarty version 2.6.18, created on 2014-12-01 12:03:20
          compiled from index/index.html */ ?>
 <html>
 	<frameset cols="230,*" name="top">

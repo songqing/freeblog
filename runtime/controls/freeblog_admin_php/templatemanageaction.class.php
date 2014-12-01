@@ -104,13 +104,14 @@ class TemplateManageAction extends Common {
 							$tems.=$value.'.';
 						}
 						$tems=rtrim($tems,'.');
+						//p($tems);           //zsq
 						//检查上传模板
 						$this->checkTem("home/views/{$tems}");
 						//如果解压出来的文件不是目录
 						if(!is_dir("home/views/{$tems}")){
 							//如果不是目录直接删除文件
 							unlink("home/views/{$tems}");
-							$this->error("上传的模板文件{$up->getFileName()}不符合标准，请换一套模板!",3,'templateManage/allTemplate');
+							$this->error("111111上传的模板文件{$up->getFileName()}不符合标准，请换一套模板!",3,'templateManage/allTemplate');
 							return false;
 						}
 						//如果检查上传的模板中没有相对应的文件执行删除给出错误提示
@@ -125,7 +126,7 @@ class TemplateManageAction extends Common {
 						$filePath=$_SERVER['DOCUMENT_ROOT']."/freeBlog/template/";
 						unlink($filePath."{$up->getFileName()}");
 						if($flag){
-							$this->error("上传的模板文件{$up->getFileName()}不符合标准，请换一套模板!",3,'templateManage/allTemplate');
+							$this->error("22222上传的模板文件{$up->getFileName()}不符合标准，请换一套模板!",3,'templateManage/allTemplate');
 						}else{
 							//添加删除操作
 							$Oper=new OperDate();

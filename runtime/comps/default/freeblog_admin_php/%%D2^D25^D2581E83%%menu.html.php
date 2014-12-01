@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2012-02-27 09:30:29
+<?php /* Smarty version 2.6.18, created on 2014-12-01 12:03:20
          compiled from index/menu.html */ ?>
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "public/menu_header.html", 'smarty_include_vars' => array()));
@@ -56,7 +56,7 @@ unset($_smarty_tpl_vars);
 						<li><a href="<?php echo $this->_tpl_vars['app']; ?>
 /categoryManage/manageCategory" target='main'>管理分类</a></li>
 						<li><a href="<?php echo $this->_tpl_vars['app']; ?>
-/ReviewManage/viewReview" target='main'>管理评论</a></li>
+/reviewManage/viewReview" target='main'>管理评论</a></li>
 					</ul>
 				</li>
 				<?php endif; ?>
@@ -84,7 +84,7 @@ unset($_smarty_tpl_vars);
 					</a>
 					<ul >
 						<li><a href="<?php echo $this->_tpl_vars['app']; ?>
-/WebManage/foreGroundManage" target='main'>网站管理</a></li>
+/webManage/foreGroundManage" target='main'>网站管理</a></li>
 						<li><a href="<?php echo $this->_tpl_vars['app']; ?>
 /dataManage/viewDB" target='main'>数据管理</a></li>
 						<?php if ($this->_tpl_vars['operateNotes'] == '1'): ?>

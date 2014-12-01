@@ -9,7 +9,7 @@
 			$GLOBALS['debug']=0;
 			$webSiteAction=D('foreground');
 			$resultAction=$webSiteAction->where(array('fid'=>'1'))->field('webState')->find();
-			//P($resultAction);
+		//	P($resultAction);
 			if(!$resultAction['webState']){
 				echo "<div align='center'><img src='{$GLOBALS['public']}/images/web_down.jpg' alt='网站关闭'/></div>";
 				return false;

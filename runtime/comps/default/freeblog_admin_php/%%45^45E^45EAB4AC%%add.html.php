@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2012-02-02 17:22:51
+<?php /* Smarty version 2.6.18, created on 2014-12-01 12:28:03
          compiled from flink/add.html */ ?>
 
 <?php $_smarty_tpl_vars = $this->_tpl_vars;

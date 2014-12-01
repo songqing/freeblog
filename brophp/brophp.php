@@ -67,6 +67,7 @@
 		}else if($className=="Smarty"){    //如果类名是Smarty类，则直接包含
 			include "Smarty.class.php";
 		}else{                             //如果是其他类，将类名转为小写
+			//zsq include $className.".class.php";	
 			include strtolower($className).".class.php";	
 		}
 		Debug::addmsg("<b> $className </b>类", 1);  //在debug中显示自动包含的类
@@ -123,7 +124,8 @@
 	$GLOBALS["res"]=$GLOBALS["root"].ltrim(APP_PATH, './')."views/".TPLSTYLE."/resource/"; //当前应用模板的资源
 
 	//控制器类所在的路径
-	$srccontrolerfile=APP_PATH."controls/".strtolower($_GET["m"]).".class.php";
+	$srccontrolerfile=APP_PATH."controls/".$_GET["m"].".class.php";
+	//zsq  $srccontrolerfile=APP_PATH."controls/".strtolower($_GET["m"]).".class.php";
 
 	Debug::addmsg("当前访问的控制器类在项目应用目录下的: <b>$srccontrolerfile</b> 文件！");
 	//控制器类的创建

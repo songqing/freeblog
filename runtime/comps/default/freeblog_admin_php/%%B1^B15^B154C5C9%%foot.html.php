@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2012-02-02 17:19:19
+<?php /* Smarty version 2.6.18, created on 2014-12-01 12:03:20
          compiled from public/foot.html */ ?>
 	<div id="footer" style="margin-left:40px;margin-right:29px;">
 				<small> <!-- Remove this notice or replace it with whatever you want -->
